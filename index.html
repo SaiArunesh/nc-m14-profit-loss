@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Profit or Loss Calculator</title>
+</head>
+
+<body>
+    <main>
+        <h1>Mark 14 Profit/Loss Calculator</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <label>Initial Price
+                    </label>
+                </td>
+                <td> <input type="number" id="buy-price" placeholder="Initial Price">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Number of Stocks you bought
+                    </label>
+                </td>
+                <td> <input type=" number" id="stock-quantity" placeholder="No of Stocks bought">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>What is the current price of the stock?
+                    </label>
+                </td>
+                <td> <input type="number" id="current-price" placeholder="Current Price">
+
+                </td>
+            </tr>
+        </table>
+
+        <button id="submit-button">Find</button>
+        <div class="output"></div>
+    </main>
+    <script src=" ./index.js"></script>
+</body>
+
+</html>
