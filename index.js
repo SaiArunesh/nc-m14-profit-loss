@@ -24,7 +24,7 @@ function calculateProfitOrLoss() {
 
         if (current > initial) {
             let profitValue = (current - initial) * quantity;
-            let profitPercentage = (profitValue / initial) * 100
+            let profitPercentage = (profitValue / (initial*quantity)) * 100
             output.innerText = `Profit ! Amount : $ ${profitValue} \n Percentage: ${profitPercentage} %`;
             root.style.setProperty('--primary-colour', 'green');
             output.style.backgroundImage = "url('https://media0.giphy.com/media/3JZ8otG63Sk3irJ90K/giphy.gif')"
